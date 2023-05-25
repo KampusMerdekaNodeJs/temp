@@ -1,0 +1,34 @@
+{
+  "name": "finalproject3-kelompok2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js",
+    "create":"npx sequelize db:create",
+    "migrate":"npx sequelize db:migrate",
+    "addadmin":"npx sequelize db:seed --seed 20230521145419-addadmin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KampusMerdekaNodeJs/FinalProject3-Kelompok2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KampusMerdekaNodeJs/FinalProject3-Kelompok2/issues"
+  },
+  "homepage": "https://github.com/KampusMerdekaNodeJs/FinalProject3-Kelompok2#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.11.0",
+    "sequelize": "^6.31.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
+  }
+}
