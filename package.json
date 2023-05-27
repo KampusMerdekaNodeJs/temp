@@ -5,10 +5,10 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon app.js",
-    "create":"npx sequelize db:create",
-    "migrate":"npx sequelize db:migrate",
-    "addadmin":"npx sequelize db:seed --seed 20230521145419-addadmin.js"
+    "start": "nodemon app.js",
+    "create": "npx sequelize db:create",
+    "migrate": "npx sequelize db:migrate",
+    "addadmin": "npx sequelize db:seed --seed 20230521145419-addadmin.js"
   },
   "repository": {
     "type": "git",
